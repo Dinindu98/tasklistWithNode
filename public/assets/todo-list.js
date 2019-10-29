@@ -9,7 +9,7 @@ $(document).ready(function(){
             url: '/todo',
             data: todo,
             success: function(data){
-                location.reload()
+                location.reload();
             }
         });
         return false;
